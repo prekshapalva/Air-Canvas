@@ -11,9 +11,9 @@ Python, OpenCV and Numpy
 
 ### :three: Steps to be followed
 1. First, read the frames and convert them to HSV color space (easy to detect colors). 
-2. Prepare the canvas frame and attach the ink buttons. Then, use the track bar values to determine the mask of the colored marker. 
+2. Prepare the canvas frame, attach the ink buttons and use the track bar values to determine the mask of the marker. 
 3. The mask should be preprocessed with morphological operations (eroding and dilation). 
-4. The contours are detected, the center coordinates of the largest contour are found and stored in the array (Arrays for drawing points on canvas). 
+4. The contours and the center coordinates of the largest contour are found and stored in the array (drawing points on canvas). 
 5. Lastly, draw the array of points on the canvas and frames.
 
 ### :four: Output
